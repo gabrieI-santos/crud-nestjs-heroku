@@ -4,8 +4,7 @@ import {MongooseModule} from "@nestjs/mongoose";
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://dev:1234@cluster0.eisdg.mongodb.net/test',
-        { useNewUrlParser: true, useUnifiedTopology: true ,useFindAndModify: false }),
+    MongooseModule.forRoot('mongodb+srv://dev:1234@cluster0.eisdg.mongodb.net/test'),
     UsersModule
   ],
   controllers: [],
